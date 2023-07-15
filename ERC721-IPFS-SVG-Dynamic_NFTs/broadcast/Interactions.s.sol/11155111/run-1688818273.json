@@ -1,0 +1,53 @@
+{
+  "transactions": [
+    {
+      "hash": "0x84b02a00bde84ee546377f8e569037949a054f9211c65991627fa279aa936042",
+      "transactionType": "CALL",
+      "contractName": "DynamicMoodNft",
+      "contractAddress": "0xfCEb21821a4B1dd801cfC3E6Ca99750Fcca9Ed38",
+      "function": "flipMood(uint256)",
+      "arguments": [
+        "0"
+      ],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/2fR3u9SJQSN4ZDaME1ckZAgygq4NfKgb",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x01e07a5371035bec2a86e1ff9eaac6b002edb102",
+        "to": "0xfceb21821a4b1dd801cfc3e6ca99750fcca9ed38",
+        "gas": "0x8342",
+        "value": "0x0",
+        "data": "0xc1a147a00000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0xd4",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x84b02a00bde84ee546377f8e569037949a054f9211c65991627fa279aa936042",
+      "transactionIndex": "0x0",
+      "blockHash": "0x4607bd1c6289c515f3cd7da2a2ecd21998d461d385cd7974ba52836f8f0f8527",
+      "blockNumber": "0x3ac026",
+      "from": "0x01e07A5371035BeC2A86e1Ff9eaAC6b002edB102",
+      "to": "0xfCEb21821a4B1dd801cfC3E6Ca99750Fcca9Ed38",
+      "cumulativeGasUsed": "0x5f08",
+      "gasUsed": "0x5f08",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0xb2d05e08"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "C:/Developer/1. Bootcamp Code/1. Web3 - Solidity Contracts/3. Patrick C - Foundry/3. NFT_pug_IPFS/NFT_collection_IPFS/broadcast\\Interactions.s.sol\\11155111\\run-latest.json",
+  "returns": {},
+  "timestamp": 1688818273,
+  "chain": 11155111,
+  "multi": false,
+  "commit": null
+}

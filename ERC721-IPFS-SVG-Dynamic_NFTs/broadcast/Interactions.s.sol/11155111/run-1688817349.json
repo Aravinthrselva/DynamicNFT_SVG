@@ -1,0 +1,82 @@
+{
+  "transactions": [
+    {
+      "hash": "0x208f9845125130bf983b780fcbbe0b0cf0537e83ba85294625fd6622fb24cada",
+      "transactionType": "CALL",
+      "contractName": "DynamicMoodNft",
+      "contractAddress": "0xfCEb21821a4B1dd801cfC3E6Ca99750Fcca9Ed38",
+      "function": "mintNft()",
+      "arguments": [],
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/2fR3u9SJQSN4ZDaME1ckZAgygq4NfKgb",
+      "transaction": {
+        "type": "0x02",
+        "from": "0x01e07a5371035bec2a86e1ff9eaac6b002edb102",
+        "to": "0xfceb21821a4b1dd801cfc3e6ca99750fcca9ed38",
+        "gas": "0x20cf6",
+        "value": "0x0",
+        "data": "0xc2229fea",
+        "nonce": "0xd1",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x208f9845125130bf983b780fcbbe0b0cf0537e83ba85294625fd6622fb24cada",
+      "transactionIndex": "0x3",
+      "blockHash": "0xe71a6fa1c0e9e6c50c80172199ae0e8e4b20b7999ed52a5231805481153565c6",
+      "blockNumber": "0x3abfda",
+      "from": "0x01e07A5371035BeC2A86e1Ff9eaAC6b002edB102",
+      "to": "0xfCEb21821a4B1dd801cfC3E6Ca99750Fcca9Ed38",
+      "cumulativeGasUsed": "0xd08a6",
+      "gasUsed": "0x166f3",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0xfCEb21821a4B1dd801cfC3E6Ca99750Fcca9Ed38",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000001e07a5371035bec2a86e1ff9eaac6b002edb102",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x",
+          "blockHash": "0xe71a6fa1c0e9e6c50c80172199ae0e8e4b20b7999ed52a5231805481153565c6",
+          "blockNumber": "0x3abfda",
+          "transactionHash": "0x208f9845125130bf983b780fcbbe0b0cf0537e83ba85294625fd6622fb24cada",
+          "transactionIndex": "0x3",
+          "logIndex": "0x16",
+          "removed": false
+        },
+        {
+          "address": "0xfCEb21821a4B1dd801cfC3E6Ca99750Fcca9Ed38",
+          "topics": [
+            "0x72102923c3d44433bd725cb2c744a4c92a536ad249b665dec9853a16ed665525",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x",
+          "blockHash": "0xe71a6fa1c0e9e6c50c80172199ae0e8e4b20b7999ed52a5231805481153565c6",
+          "blockNumber": "0x3abfda",
+          "transactionHash": "0x208f9845125130bf983b780fcbbe0b0cf0537e83ba85294625fd6622fb24cada",
+          "transactionIndex": "0x3",
+          "logIndex": "0x17",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000100000000000000000008000000000000000000000000000000000000000000000000020000000000000000000800000000000000000000000010000000000000010000000002000000000000000200000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000200000000002000000000000000000000000000002000000004000000000000020000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0xb2d05e0b"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "C:/Developer/1. Bootcamp Code/1. Web3 - Solidity Contracts/3. Patrick C - Foundry/3. NFT_pug_IPFS/NFT_collection_IPFS/broadcast\\Interactions.s.sol\\11155111\\run-latest.json",
+  "returns": {},
+  "timestamp": 1688817349,
+  "chain": 11155111,
+  "multi": false,
+  "commit": null
+}
